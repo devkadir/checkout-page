@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Payment Method</h1>
+
+    <input type="radio" name="paymentMethod" id="visa" required>
+    <label id="visaLabel" for="visa">Visa</label>
+    <input type="radio" name="paymentMethod" id="paypal" required>
+    <label id="paypalLabel" for="paypal">PayPal</label>
+    <input type="radio" name="paymentMethod" id="mastercard" required>
+    <label id="mastercardLabel" for="mastercard">MasterCard</label>
+
+    <br><br>
+
+    <input type="checkbox" id="termsOfUse">
+    <label for="termsOfUse">I accept Terms of Use</label>
+
+    <p id="termsResult"></p>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+
+.show {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+.button {
+    height: 20px;
+    width: 100px;
+    margin: 20px -50px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
